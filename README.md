@@ -17,3 +17,5 @@ $ make install
 ```sh
 make lint
 ```
+
+ flawless-whistle.surge.sh
