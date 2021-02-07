@@ -2,10 +2,11 @@
 body {
   margin: 0;
 
+  color: #2a2626;
+
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  
-  color: #2a2626;
+
   line-height: 1.6em;
 }
 
@@ -15,8 +16,8 @@ h3,
 h4 {
   margin: 0;
 
-  font-family: "Neucha", cursive;
   font-weight: normal;
+  font-family: "Neucha", cursive;
 
   line-height: 1.2em;
 }
@@ -166,6 +167,7 @@ h3 {
 
 .definition {
   width: 100%;
+
   text-align: center;
 }
 
@@ -203,6 +205,7 @@ h3 {
 
 .navigation__item:first-child {
   padding: 0;
+
   background-color: #42413c;
 }
 
@@ -234,6 +237,7 @@ h3 {
 
 .item--content {
   margin-bottom: 0;
+
   color: #2a2626;
 }
 
@@ -274,7 +278,7 @@ h3 {
 }
 
 .distortion__suptitle {
-  font-family: Neucha;
+  font-family: "Neucha", cursive;
   font-size: 24px;
 
   margin: 0;
@@ -309,6 +313,8 @@ h3 {
   width: 100%;
   padding: 5px 10px;
 
+  z-index: 1;
+
   color: #fff;
 
   font-weight: bold;
@@ -317,13 +323,12 @@ h3 {
 
   text-transform: uppercase;
 
-  z-index: 1;
-
   background-color: #b09a81;
 }
 
 .section--brown .distortion__divider {
   color: #b09a81;
+
   background-color: #fff;
 }
 
@@ -344,6 +349,7 @@ h3 {
   padding: 38px 55px 40px 55px;
 
   color: #fff;
+
   background-color: #42413c;
 }
 
@@ -355,10 +361,10 @@ h3 {
   width: 50%;
 
   font-weight: normal;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
-  
+
   line-height: 160%;
 }
 
@@ -375,7 +381,7 @@ h3 {
   width: calc(100% - 70px);
   max-width: 394px;
   height: 50px;
-  
+
   padding: 15px;
 
   font-size: 16px;
@@ -417,6 +423,7 @@ h3 {
 
 .subscription__rules {
   margin: 0;
+
   font-size: 12px;
 }
 
