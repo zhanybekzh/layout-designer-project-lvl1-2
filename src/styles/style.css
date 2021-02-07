@@ -1,8 +1,10 @@
 /** CSS STYLE **/
 body {
+  margin: 0;
+
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  margin: 0;
+  
   color: #2a2626;
   line-height: 1.6em;
 }
@@ -11,10 +13,11 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Neucha", cursive;
-
   margin: 0;
+
+  font-family: "Neucha", cursive;
   font-weight: normal;
+
   line-height: 1.2em;
 }
 
@@ -90,6 +93,7 @@ h3 {
 
 .section--brown {
   color: #fff;
+
   background-color: #b09a81;
 }
 
@@ -97,6 +101,7 @@ h3 {
 
 .header {
   position: relative;
+
   padding: 100px 0;
 
   overflow: hidden;
@@ -120,11 +125,11 @@ h3 {
 .header__content {
   position: relative;
 
-  margin-top: 185px;
-
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+
+  margin-top: 185px;
 }
 
 .content--item {
@@ -143,15 +148,17 @@ h3 {
 
 .button {
   padding: 12px 24px;
+
   text-transform: uppercase;
+
   background-color: #fe8a02;
 
   border: none;
 }
 
 .button a {
+  color: #fff;
   font-weight: bold;
-  color: #ffffff;
   text-decoration: none;
 }
 
@@ -175,19 +182,19 @@ h3 {
 .navigation {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: stretch;
+  justify-content: space-between;
 
-  margin-top: 100px;
   width: 100%;
+  margin-top: 100px;
 }
 
 .navigation__item {
   display: block;
   max-width: 350px;
-  padding: 24px;
 
   margin-bottom: 20px;
+  padding: 24px;
 
   background-color: #f5f4f0;
 
@@ -302,17 +309,17 @@ h3 {
   width: 100%;
   padding: 5px 10px;
 
-  font-size: 14px;
-  font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+  color: #fff;
 
-  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 
   text-transform: uppercase;
 
-  background-color: #b09a81;
-
   z-index: 1;
+
+  background-color: #b09a81;
 }
 
 .section--brown .distortion__divider {
@@ -336,8 +343,8 @@ h3 {
   width: 100%;
   padding: 38px 55px 40px 55px;
 
-  background-color: #42413c;
   color: #fff;
+  background-color: #42413c;
 }
 
 .subscription__title {
@@ -347,10 +354,11 @@ h3 {
 .subscription__email {
   width: 50%;
 
-  font-family: Open Sans;
   font-weight: normal;
-  font-style: normal;
+  font-family: Open Sans;
   font-size: 18px;
+  font-style: normal;
+  
   line-height: 160%;
 }
 
@@ -365,8 +373,9 @@ h3 {
 
 .subscription__input {
   width: calc(100% - 70px);
-  height: 50px;
   max-width: 394px;
+  height: 50px;
+  
   padding: 15px;
 
   font-size: 16px;
@@ -420,7 +429,7 @@ h3 {
 .copyright {
   width: 100%;
   margin-top: 60px;
-  
+
   text-align: center;
 }
 
