@@ -278,11 +278,11 @@ h3 {
 }
 
 .distortion__suptitle {
-  font-family: "Neucha", cursive;
-  font-size: 24px;
-
   margin: 0;
 
+  font-size: 24px;
+  font-family: "Neucha", cursive;
+  
   color: #908d8b;
 }
 
@@ -294,7 +294,7 @@ h3 {
   color: #2a2626;
 
   font-size: 34px;
-  font-family: Neucha;
+  font-family: "Neucha", cursive;
   line-height: 41px;
 }
 
@@ -311,9 +311,9 @@ h3 {
 
 .distortion__divider {
   width: 100%;
-  padding: 5px 10px;
-
   z-index: 1;
+
+  padding: 5px 10px;
 
   color: #fff;
 
@@ -361,8 +361,8 @@ h3 {
   width: 50%;
 
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
   font-size: 18px;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
 
   line-height: 160%;
